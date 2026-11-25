@@ -1,0 +1,3 @@
+# PADS ASCII libraries, not C source
+pads/** linguist-vendored
+*.asc linguist-vendored
