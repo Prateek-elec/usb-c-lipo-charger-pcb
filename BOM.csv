@@ -1,0 +1,14 @@
+Ref,Qty,Part,Function,Package
+U1,1,TP4056,1 A linear Li-ion charger (CC/CV to 4.2 V),ESOP-8 with thermal pad
+U2,1,DW01A,Battery protection: over-charge / over-discharge / over-current / short,SOT-23-6
+Q1,1,FS8205A,Dual N-MOSFET switched by the DW01A,SOT-23-6
+USB1,1,USB Type-C 6-pin receptacle,5 V input,SMD
+R6 R7,2,5.1 kΩ,USB-C CC pull-downs (lets C-to-C chargers supply 5 V),0603
+R2,1,1.2 kΩ,TP4056 PROG resistor: sets 1 A charge current,0603
+R1 R3 R4,3,1 kΩ,LED current limiting / DW01A current sense,0603
+R5,1,100 Ω,DW01A supply filter,0402
+C1 C2,2,10 µF,Input and battery bypass,0603
+C3,1,100 nF,DW01A supply filter,0603
+LED1 LED2,2,Red LED,Charging / done indicators,1608
+CN2,1,JST GH 1.25 mm 2-pin,Battery connector,SMD
+H1,1,1.27 mm 2-pin header,Protected battery output,SMD
